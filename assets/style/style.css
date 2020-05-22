@@ -1,10 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
 .main-container{
 display: grid;
 grid-template-rows: repeat(2,auto);
+justify-content: center;
 
 }
 
 .img-div{
-background-image: url('assets/img/your_verse_hero.jpg');
+background-image: url('../img/your_verse_hero.png');
+background-repeat: no-repeat;
+background-position: 50% 100%;
+width: 1020px;
+height: 545px;
 
 }
+
+.sec-layer{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+}
+
+.sec-img-div{display: grid;
+grid-template-columns: repeat(4,auto);
+
+}
+
+
+.under-img{ 
+    width: 255px;
+}
+
+.footer-part {
+display: grid;
+grid-template-rows: repeat(2,auto);
+width: 1020px;
+}
+
+.footer-up {
+display: grid;
+grid-template-columns: repeat(2,auto);
+}
+
+.top-footer-list{display: grid;
+grid-template-columns: repeat(8,auto);
+}
+
+.nav-img{
+    width: 30px;
+    height: 30px;
+}
+
+.list-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+    margin: 80px 0 0 30px;
+    border: 1px solid black;
+    align-items: center;
+    width: 960px;
+    
+}
+
+.list-con li,.list-con a{list-style: none;
+    text-decoration-line: none;}
+
+    .list-con li{
+        height: 40px;
+        border-right: 1px solid black;
+    }
