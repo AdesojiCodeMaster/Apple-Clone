@@ -98,72 +98,182 @@ video {
 
 
 .main-container{
-display: grid;
-grid-template-rows: repeat(2,auto);
-justify-content: center;
-
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .img-div{
-background-image: url('../img/your_verse_hero.png');
-background-repeat: no-repeat;
-background-position: 50% 100%;
-width: 1020px;
-height: 545px;
-
+    background-image: url('../img/your_verse_hero.png');
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    border-bottom:2px solid #ffffff;
+    border-left: 2px solid #747474;
+    border-right: 2px solid #747474;
+    border-top: 2px solid #747474;
+    height: 545px;
+    width: 1024px;
 }
 
 .sec-layer{
+    border-bottom: 2px solid #747474;
+    border-left: 2px solid #747474;
+    border-right: 2px solid #747474;
     display: grid;
     grid-template-rows: repeat(2,auto);
 }
 
-.sec-img-div{display: grid;
-grid-template-columns: repeat(4,auto);
-
+.sec-img-div{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
 }
 
 
 .under-img{ 
+    border-right: 2px solid #ffffff;
+    height: 180px;
     width: 255px;
 }
 
 .footer-part {
-display: grid;
-grid-template-rows: repeat(2,auto);
-width: 1020px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    padding: 20px;
+    width: 1020px;
 }
 
 .footer-up {
-display: grid;
-grid-template-columns: repeat(2,auto);
+    display: grid;
+    grid-template-columns: repeat(2,auto);
 }
 
-.top-footer-list{display: grid;
-grid-template-columns: repeat(8,auto);
+.top-footer-list{
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    justify-content: center
 }
 
 .nav-img{
-    width: 30px;
     height: 30px;
+    width: 30px;
 }
 
 .list-con {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(9,auto);
+    height:40px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.nav-btn {
+    background-color:#545252;
+    background: linear-gradient(to top, #4e4c4c 50%, #5f5d5d 50%);
+    border-radius: 15px;
+    border: 1px solid #545252;
+    height: 21px;
+    margin:10px 0 0 20px ;
+    width: 106px;
+}
+
+.fab.fa-apple.fa-2x{
+    padding: 7px;
+    width: 72px;
+}
+
+.fas.fa-search{
+    color: #ffffff;
+    margin: 2px 80px 0 0 ;
+    }
+
+
+
+
+
+.list-center,.fab.fa-apple{
+    border-right: 2px solid #545252;
     height: 40px;
-    margin: 80px 0 0 30px;
-    border: 1px solid black;
-    align-items: center;
-    width: 960px;
+    width: 100px;
+}
+
+.list-center{
+    padding:14px;
+    text-align: center;
+}
+
+.nav-bar{
+    background-color:#747474;
+    background: linear-gradient(to bottom,#756e6e 50%, #5f5d5d 50%);
+    border-radius: 5px;
+    margin:90px 30px 0 30px ;
+}
+
+.list-con li,.list-con a{
+    color:#ffffff;
+    list-style: none;
+    text-decoration-line: none;
     
 }
 
-.list-con li,.list-con a{list-style: none;
-    text-decoration-line: none;}
-
-    .list-con li{
-        height: 40px;
-        border-right: 1px solid black;
+.list-con li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+    font-weight: 700;
     }
+.text-div{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    justify-content: center;
+}
+
+.anchor-text1 {
+    margin:75px 0 0 150px;
+    }
+
+.anchor-text3{
+    margin: 30px 0 0 190px;
+}
+
+
+.footer-part p{
+    color:#333333;
+    font-family: Arial;
+}
+
+.footer-up p,.footer-up a, .footer-down p,.footer-up li{
+    font-size:11px;
+    list-style: none;
+    text-decoration-line: none;
+}
+
+.footer-down a{
+    text-decoration-line: none;
+}
+
+.online-store,.apple-retail,.reseller,.list-obj,.terms,.privacy{
+    color: #0088cc;
+}
+
+.list-obj,.terms{
+    border-right: 1px solid #cccccc;
+    padding:0 5px 0 5px ;
+    }
+
+.footer-down{
+    padding: 10px 10px 10px 0;
+}
+
+.us-logo{
+    padding-left: 5px;
+}
+
+body{
+    background-color: #EEEEEE;
+    height: 1500px;
+}
+
+#img-last{
+    border-right: 0;
+}
