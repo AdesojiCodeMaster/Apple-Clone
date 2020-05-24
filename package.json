@@ -1,0 +1,22 @@
+{
+  "name": "apple-clone",
+  "version": "1.0.0",
+  "description": "Apple-Clone Page",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdesojiCodeMaster/Apple-Clone.git"
+  },
+  "keywords": [
+    "Apple-Clone"
+  ],
+  "author": "Adesoji Adewumi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdesojiCodeMaster/Apple-Clone/issues"
+  },
+  "homepage": "https://github.com/AdesojiCodeMaster/Apple-Clone#readme"
+}
