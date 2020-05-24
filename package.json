@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/AdesojiCodeMaster/Apple-Clone/issues"
   },
-  "homepage": "https://github.com/AdesojiCodeMaster/Apple-Clone#readme"
+  "homepage": "https://github.com/AdesojiCodeMaster/Apple-Clone#readme",
+  "devDependencies": {
+    "stylelint": "^13.5.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
 }
