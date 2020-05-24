@@ -162,7 +162,7 @@ video {
 
 .list-con {
     display: grid;
-    grid-template-columns: repeat(9,auto);
+    grid-template-columns: repeat(8,auto);
     height:40px;
     justify-content: center;
     justify-items: center;
@@ -200,10 +200,13 @@ video {
 }
 
 .nav-bar{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
     background-color:#747474;
     background: linear-gradient(to bottom,#756e6e 50%, #5f5d5d 50%);
     border-radius: 5px;
-    margin:80px 30px 0 30px ;
+    margin:80px 45px 0 45px ;
+    width: 920px;
 }
 
 .list-con li,.list-con a{
