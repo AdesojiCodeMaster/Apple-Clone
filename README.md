@@ -2,7 +2,7 @@
 
 > This project consists of building an HTML document that matches the appearance of an article from The Apple Website Page.
 
--Live Demo [https://rawcdn.githack.com/AdesojiCodeMaster/Apple-Clone/8c86152c86ea02b01b1d2c2a513accfd1f392227/index.html]
+-Live Demo [https://rawcdn.githack.com/AdesojiCodeMaster/Apple-Clone/19d230ab36bf6cce394bffaa6de5c67d4468fbc9/index.html]
 
 ![screenshot](./assets/img/Apple-clone-screenshot.png)
 
