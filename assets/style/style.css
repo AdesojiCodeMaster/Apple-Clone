@@ -155,6 +155,8 @@ video {
   grid-template-columns: repeat(8, auto);
   height: 40px;
   justify-items: center;
+  width: 800px;
+
 }
 
 .nav-btn {
