@@ -4,7 +4,7 @@
 
 -Live Demo [https://rawcdn.githack.com/AdesojiCodeMaster/Apple-Clone/208a59f7a5ab6eea1951af5eaae47274ea2fd935/index.html]
 
-![screenshot](./assets/img/Apple-clone-screenshot.png)
+![screenshot](./assets/img/adusted-page.png)
 
 
 
