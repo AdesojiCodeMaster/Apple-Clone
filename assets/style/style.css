@@ -1,0 +1,268 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  }
+
+.img-div {
+  background-image: url('../img/your_verse_hero.png');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  height: 560px;
+  width: 1284px;
+}
+
+.sec-layer {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}
+
+.sec-img-div {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+.under-img {
+  border-right: 2px solid #fff;
+  height: 200px;
+  width: 321px;
+}
+
+.footer-part {
+  background-color: #fff;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  padding: 20px;
+  width: 1020px;
+  margin-left: 130px;
+}
+
+.footer-up {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.top-footer-list {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  justify-content: center;
+}
+
+.nav-img {
+  height: 30px;
+  width: 30px;
+}
+
+.list-con {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  height: 40px;
+  justify-items: center;
+  width: 800px;
+
+}
+
+.nav-btn {
+  background: linear-gradient(to top, #4e4c4c 50%, #5f5d5d 50%);
+  border-radius: 15px;
+  border: 1px solid #545252;
+  height: 21px;
+  margin: 10px 0 0 10px;
+  width: 106px;
+}
+
+.fab.fa-apple.fa-2x {
+  padding: 7px;
+  width: 72px;
+  margin-left: 40px;
+}
+
+.fas.fa-search {
+  color: #fff;
+  margin: 2px 80px 0 0;
+}
+
+.list-center, .fab.fa-apple {
+  border-right: 2px solid #545252;
+  height: 40px;
+  width: 100px;
+}
+
+.list-center {
+  padding: 14px;
+  text-align: center;
+}
+
+.nav-bar {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  background: linear-gradient(to bottom, #756e6e 50%, #5f5d5d 50%);
+  border-radius: 5px;
+  margin: 105px 165px 0 165px;
+  width: 950px;
+}
+
+
+.list-con li, .list-con a {
+  color: #fff;
+  list-style: none;
+  text-decoration-line: none;
+}
+
+.list-con li  {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px; 
+  font-weight: 700;
+}
+
+.list-con :hover {
+  background-color: #5d5656;}
+
+.text-div {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  justify-content: center;
+}
+
+.anchor-text1 {
+  margin: 75px 0 0 150px;
+}
+
+.anchor-text3 { 
+  margin: 30px 0 0 190px;
+} 
+
+.footer-part p {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-up p, .footer-up a, .footer-down p, .footer-up li {
+  font-size: 11px;
+  list-style: none;
+  text-decoration-line: none;
+}
+
+.footer-down a {
+  text-decoration-line: none;
+}
+
+.online-store, .apple-retail, .reseller, .list-obj, .terms, .privacy {
+  color: #08c;
+}
+
+.list-obj,
+.terms {
+  border-right: 1px solid #ccc;
+  padding: 0 5px 0 5px;
+}
+
+.footer-down {
+  padding: 10px 10px 10px 0;
+}
+
+.us-logo {
+  padding-left: 5px;
+}
+
+
+#img-last {
+  border-right: 0;
+}
